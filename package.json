@@ -1,0 +1,51 @@
+{
+  "name": "react-wordpress-api-demo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://react-wordpress-api-demo.netlify.app/",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "wordpress",
+    "react-router",
+    "styled-components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gregrickaby/React-WordPress-API-Demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gregrickaby/React-WordPress-API-Demo/issues"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "yarn start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "netlify deploy --prod --dir=./build --open"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
