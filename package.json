@@ -2,17 +2,12 @@
   "name": "react-wordpress-api-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://react-wordpress-api-demo.netlify.app/",
+  "homepage": "https://react-wordpress-api-demo.vercel.app/",
   "license": "MIT",
-  "keywords": [
-    "react",
-    "wordpress",
-    "react-router",
-    "styled-components"
-  ],
+  "keywords": ["react", "wordpress", "react-router", "styled-components"],
   "repository": {
     "type": "git",
-    "url": "git@github.com:gregrickaby/React-WordPress-API-Demo.git"
+    "url": "https://github.com/CrowdWork/React-WordPress-API-Demo.git"
   },
   "bugs": {
     "url": "https://github.com/gregrickaby/React-WordPress-API-Demo/issues"
@@ -37,11 +32,7 @@
     "extends": "react-app"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
